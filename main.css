@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100|Source+Code+Pro:200|Spectral:200");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 0;
+}
+
+#bg {
+  background-image: url("./tyler-lastovich-616849-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 100vh;
+}
+
+header {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 150px;
+  font-family: "Source Code Pro", monospace;
+  color: white;
+}
+
+#jargonstein {
+  height: 100vh;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.vertical-align {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* below is required so that h1 does not add a default margin resulting in a gap between this div and the preceding one */
+h1 {
+  margin: 0;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+p {
+  font-family: "Spectral", serif;
+  font-size: 125%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.light-bg {
+  color: black;
+}
+
+.dark-bg {
+  color: white;
+}
+
+#hacker-splash {
+  height: 100vh;
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+#new-tab-extension {
+  height: 100vh;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+#contact {
+  height: 100vh;
+  background-color: bisque;
+  text-align: center;
+}
+
+.fade-in {
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
