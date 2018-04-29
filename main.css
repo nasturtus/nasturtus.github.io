@@ -83,7 +83,7 @@ p {
 }
 
 .fade-in {
-  animation: fadeIn 5s;
+  animation: fadeIn 10s;
 }
 
 @keyframes fadeIn {
