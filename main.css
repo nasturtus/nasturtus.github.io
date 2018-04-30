@@ -22,9 +22,9 @@ html {
 }
 
 header {
-  font-size: 50px;
+  font-size: 200%;
   text-align: center;
-  padding-top: 150px;
+  padding-top: 10%;
   font-family: "Source Code Pro", monospace;
   color: white;
 }
@@ -38,14 +38,15 @@ header {
 
 .vertical-align {
   position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 40%;
+  /* transform: translateY(-50%); */
 }
 
 /* below is required so that h1 does not add a default margin resulting in a gap between this div and the preceding one */
 h1 {
   margin: 0;
   font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 300%;
 }
 
 p {
@@ -83,7 +84,7 @@ p {
 }
 
 .fade-in {
-  animation: fadeIn 10s;
+  animation: fadeIn 5s;
 }
 
 @keyframes fadeIn {
