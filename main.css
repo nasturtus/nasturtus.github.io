@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100|Source+Code+Pro:200|Spectral:200");
+@import url("https://fonts.googleapis.com/css?family=Bungee+Hairline|Source+Code+Pro:200|Spectral:200");
 
 body,
 html {
@@ -22,7 +22,7 @@ html {
 }
 
 header {
-  font-size: 200%;
+  font-size: 150%;
   text-align: center;
   padding-top: 10%;
   font-family: "Source Code Pro", monospace;
@@ -38,22 +38,47 @@ header {
 
 .vertical-align {
   position: relative;
-  top: 40%;
+  top: 20%;
   /* transform: translateY(-50%); */
+}
+
+img {
+  margin: 0;
+  max-width: 10%;
+  max-height: 10%;
+  margin-bottom: 2%;
 }
 
 /* below is required so that h1 does not add a default margin resulting in a gap between this div and the preceding one */
 h1 {
   margin: 0;
-  font-family: "Alegreya Sans SC", sans-serif;
-  font-size: 300%;
+  font-family: "Bungee Hairline", cursive;
+  font-size: 200%;
 }
 
-p {
+h2 {
   font-family: "Spectral", serif;
-  font-size: 125%;
+  font-size: 130%;
   padding-left: 5%;
   padding-right: 5%;
+}
+
+h3 {
+  font-family: "Spectral", serif;
+  font-size: 130%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+button.black-bg {
+  /* width: auto; */
+  margin-top: 10%;
+  border: solid 4px white;
+  color: white;
+  background: transparent;
+  font-size: 150%;
+  font-family: "Bungee Hairline", cursive;
+  padding: 1% 2% 1% 2%;
 }
 
 .light-bg {
