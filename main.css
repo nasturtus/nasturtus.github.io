@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Bungee+Hairline|Source+Code+Pro:200|Spectral:200");
+@import url("https://fonts.googleapis.com/css?family=Bungee+Hairline|Poppins:100");
 
 body,
 html {
@@ -22,17 +22,25 @@ html {
 }
 
 header {
-  font-size: 150%;
+  font-size: 200%;
   text-align: center;
   padding-top: 10%;
-  font-family: "Source Code Pro", monospace;
+  font-family: "Poppins", sans-serif;
   color: white;
+  letter-spacing: 2px;
 }
 
-#jargonstein {
+.dark-bg {
   height: 100vh;
   background-color: black;
   color: white;
+  text-align: center;
+}
+
+.light-bg {
+  height: 100vh;
+  background-color: #ffffff;
+  color: black;
   text-align: center;
 }
 
@@ -44,8 +52,8 @@ header {
 
 img {
   margin: 0;
-  max-width: 10%;
-  max-height: 10%;
+  max-width: 8%;
+  max-height: 8%;
   margin-bottom: 2%;
 }
 
@@ -56,23 +64,29 @@ h1 {
   font-size: 200%;
 }
 
-h2 {
-  font-family: "Spectral", serif;
-  font-size: 130%;
+.subtitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 150%;
   padding-left: 5%;
   padding-right: 5%;
+  color: rgb(136, 245, 245);
 }
 
-h3 {
-  font-family: "Spectral", serif;
-  font-size: 130%;
+.body {
+  font-family: "Poppins", sans-serif;
+  font-size: 125%;
   padding-left: 5%;
   padding-right: 5%;
+  color: white;
 }
 
-button.black-bg {
+.light-bg .body {
+  color: black;
+}
+
+.dark-bg button {
   /* width: auto; */
-  margin-top: 10%;
+  margin-top: 5%;
   border: solid 4px white;
   color: white;
   background: transparent;
@@ -81,18 +95,28 @@ button.black-bg {
   padding: 1% 2% 1% 2%;
 }
 
+.light-bg button {
+  /* width: auto; */
+  margin-top: 5%;
+  border: solid 4px black;
+  color: black;
+  background: transparent;
+  font-size: 150%;
+  font-family: "Bungee Hairline", cursive;
+  padding: 1% 2% 1% 2%;
+}
+
+
+.dark-bg {
+  color: #ffffff;
+}
+
 .light-bg {
   color: black;
 }
 
-.dark-bg {
-  color: white;
-}
-
-#hacker-splash {
-  height: 100vh;
-  background-color: whitesmoke;
-  text-align: center;
+.light-bg .subtitle {
+  color: #0000ff;
 }
 
 #new-tab-extension {
@@ -119,4 +143,26 @@ button.black-bg {
   to {
     opacity: 1;
   }
+}
+
+.dark-bg a {
+  text-decoration: none;
+  color: white;
+}
+
+.dark-bg a:hover {
+  text-decoration: none;
+}
+
+.light-bg a {
+  text-decoration: none;
+  color: black;
+}
+
+.light-bg a:hover {
+  text-decoration: none;
+}
+
+.contact-section {
+  background: #2f2f2f;
 }
