@@ -85,7 +85,6 @@ h1 {
 }
 
 .dark-bg button {
-  /* width: auto; */
   margin-top: 5%;
   border: solid 4px white;
   color: white;
@@ -96,7 +95,6 @@ h1 {
 }
 
 .light-bg button {
-  /* width: auto; */
   margin-top: 5%;
   border: solid 4px black;
   color: black;
